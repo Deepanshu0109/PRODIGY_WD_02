@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <div class="container">
+            <h1>Stop Watch</h1>
+            <div class="timer">
+                <p>
+                    <span id="time">00 : 00 : 00</span>
+                    <span id="ms">000</span>
+                </p>
+            </div>
+            <div class="buttons">
+                <button id="reset">reset</button>
+                <button id="start">Start</button>
+                <button id="lap">Lap</button>
+            </div>
+        </div>
+        <div class="laps">
+            <h2> LAPS</h2>
+            <p id="lapHistory"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
